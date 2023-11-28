@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color:  hsl(210, 46%, 95%)
+    ;
+}
+
+.wrap1 {
+    grid-area: first;
+}
+
+.wrap2 {
+    grid-area: second;
+}
+
+.wrap4 {
+    grid-area: fifth;
+}
+
+.wrap3 {
+    grid-area: fourth;
+
+}
+
+.wrap5 {
+    grid-area: third;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 'first first second third'
+        'fourth fifth  fifth third';
+    place-content: center;
+    place-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+}
+
+.grid1 img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.img1 {
+    padding-left: 8px;
+    /* font-weight: lighter; */
+    font-size: 13px;
+
+}
+
+.wrap1 {
+    border-radius: 5px;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: url(./images//bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 350px -10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.blur1 {
+    margin-left: 8px;
+    opacity: 50%;
+    font-size: 12px;
+}
+
+.grid2 {
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.note1 {
+    opacity: 50%;
+}
+
+.wrap2 {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 23px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.grid3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+}
+
+.grid3 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.cover2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.grid4{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.img2{
+    font-size: 13px;
+}
+.blur2{
+    opacity: 50%;
+    font-size: 12px;
+}
+.note2{
+    opacity: 50%;
+}
+.grid5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+}
+.grid5 img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px
+}
+.cover3{
+    padding-left: 10px;
+}
+.blur3{
+    font-size: 12px;
+    opacity: 50%;
+}
+.wrap3{
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 23px; 
+    /* padding-right: 15px; */
+    padding-bottom: 15px;
+    /* width: fit-content; */
+    width: 100%;
+    height: 100%;
+    
+
+}
+.img3{
+    font-size: 13px;
+}
+.grid6{
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}.wrap4{
+    color: white;
+    background:hsl(218, 62%, 19%);;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 23px; 
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.grid7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+}
+.grid7 img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px
+}
+.wrap5 {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 15px;
+    padding-left: 30px; 
+    padding-bottom: 15px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.cover4{
+    padding-left: 10px;
+}
+.blur4{
+     font-size: 12px;
+    opacity: 50%;
+}
+.grid8{
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.note4{
+    opacity: 50%;
+}
+.img4{
+    font-size: 13px;
+}
+.grid9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+}
+.grid9 img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.img5{
+    font-size: 13px;
+}
+.blur5{
+    font-size: 12px;
+    opacity: 50%;
+}
+.cover5{
+    padding-left: 10px;
+}
+.grid10{
+font-weight: 600;
+padding-bottom: 15px;
+font-size: 18px;
+}
+.note5{
+    opacity: 50%;
+}
+.note3{
+    opacity:50%;
+}

@@ -271,3 +271,37 @@ font-size: 18px;
 .note3{
     opacity:50%;
 }
+@media (max-width: 1200px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 'first first second second'
+        'fourth fourth fifth fifth'
+        'third third third third';
+            height: fit-content;
+        place-content: start;
+        place-items: start;
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+  
+
+}
+@media (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .wrap1 , .wrap2, .wrap3, .wrap4 , .wrap5 {
+        height: fit-content;
+        margin-top: 2rem;
+    }
+    .wrap1{
+        background-image: url(./images//bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 250px -10px;
+    }
+    
+}
